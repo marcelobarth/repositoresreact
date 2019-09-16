@@ -1,8 +1,4 @@
-module.exports = {
-    env: {
-        browser: true,
-        es6: true,
-    },
+module.export = {
     extends: ['airbnb', 'prettier', 'prettier/react'],
     globals: {
         Atomics: 'readonly',
